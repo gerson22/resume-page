@@ -1,0 +1,32 @@
+.top-nav-collapse {
+    background-color: #82b1ff !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #82b1ff !important;
+    }
+}
+
+h5 {
+    letter-spacing: 3px;
+}
+
+.jarallax {
+    height: 1000px;
+}
+@media (max-width: 740px) {
+    .jarallax {
+        height: 300px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1025px) {
+    .jarallax {
+        height: 500px;
+    }
+}
