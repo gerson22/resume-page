@@ -118,3 +118,46 @@ a, a:hover{
 .profile-list li{
   margin-top: .3rem;
 }
+
+@media (max-width: 769px) {
+  .card.card-cascade.wider.reverse .card-body.presentation{
+    background: #262525;
+    color: #7b7b7b;
+    margin-top: -10rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  .figure-card {
+      margin-right: 0px;
+      margin-left: 0px;
+  }
+  .message{
+    font-size: 1rem;
+  }
+  .info-headings h6{
+      display: block;
+      width: 100%;
+      margin-top: .1rem;
+      font-weight: 300;
+      text-align: left;
+      font-size: .8em;
+      color: #7b7b7b;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.29);
+  }
+  .claerfix{
+    clear: both;
+  }
+  .profile-list {
+    text-align: left;
+    float: left;
+    margin-top: 1rem;
+    display: block;
+    width: 100%;
+    font-weight: 200;
+    font-size: .8rem;
+    list-style: none;
+  }
+  .profile-list li{
+    margin-top: .3rem;
+  }
+}
